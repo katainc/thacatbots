@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThaCat - Twitch Bots</title>
+    <link href="thacat-style.css" rel="stylesheet">
+
+</head>
+<body id="top">
+    <!-- Enhanced Background Elements -->
+    <div class="cyber-bg">
+        <div class="cyber-gradient"></div>
+        <div class="matrix-rain" id="matrixRain"></div>
+    </div>
+    
+    <div class="particles" id="particlesContainer"></div>
+    
+    <div class="data-streams" id="dataStreams"></div>
+    
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+    
+    <div class="grid-overlay">
+        <div class="grid-lines"></div>
+        <div class="grid-glow"></div>
+    </div>
+    
+    <div class="scanlines"></div>
+    <div class="noise-overlay"></div>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#top" class="logo">ThaCat</a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-button" id="mobileMenuBtn">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <a href="#top" class="mobile-menu-logo">ThaCat</a>
+            <button class="mobile-menu-close" id="mobileMenuClose">✕</button>
+        </div>
+        <nav class="mobile-menu-nav">
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1 class="hero-title">
+                <span class="hero-nexus">Tha</span><span class="hero-flow">Cat</span>
+            </h1>
+            <p class="hero-subtitle">The best and safer twitch bots System</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn-primary">Join discord →</a>
+                <a href="#" class="btn-secondary">Discord</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats fade-up" id="stats">
+        <div class="stats-container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">96</span>
+                    <span class="stat-label">Active Users</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">99%</span>
+                    <span class="stat-label">Uptime</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1224</span>
+                    <span class="stat-label">Tasks Processed</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">180+</span>
+                    <span class="stat-label">Countries</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features fade-up" id="features">
+        <div class="features-container">
+            <div class="section-header">
+                <h2 class="section-title">Bot System</h2>
+                <p class="section-subtitle">Advanced bots systeme to grow your Twitch channel !</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Fast Delivery</h3>
+                    <p>Our bots and features are incredibly fast (Instant Delivery)</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔮</div>
+                    <h3>Account Generation</h3>
+                    <p>We generate our own accounts (email verified) by our-self</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>International</h3>
+                    <p>Our bots will work on any twitch page </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Undetectable</h3>
+                    <p>We do not delivers all followers at the same time , so twitch don't suspect you</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Updates</h3>
+                    <p>We stay updated with twitch updates as fast as we can</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Our Goal</h3>
+                    <p>Provide a good and fast services , With quality bots</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing fade-up" id="pricing">
+        <div class="pricing-container">
+            <div class="section-header">
+                <h2 class="section-title">Bundles Prices</h2>
+                <p class="section-subtitle">Choose an option here ↴</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="plan-name">Small Bundle</div>
+                    <div class="plan-price">$10🇨🇦ɒ</div>
+                    <div class="plan-period">1 shot bundle</div>
+                    <ul class="plan-features">
+                        <li>800+ Followers</li>
+                        <li>1 Raid (100Members)</li>
+                        <li>Random chats after the raid</li>
+                    </ul>
+                    <a href="#" class="btn-secondary">Select Bundle</a>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="plan-name">Normal Bundle</div>
+                    <div class="plan-price">$20🇨🇦ɒ</div>
+                    <div class="plan-period">1 shot bundle</div>
+                    <ul class="plan-features">
+                        <li>1500+ Followers</li>
+                        <li>2 Raid (100Members) 1h between each</li>
+                        <li>Random chats after the raids</li>
+                    </ul>
+                    <a href="#" class="btn-primary">Select Bundle</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="plan-name">Big Bundle</div>
+                    <div class="plan-price">$30🇨🇦ɒ</div>
+                    <div class="plan-period">1 shot bundle</div>
+                    <ul class="plan-features">
+                        <li>2500+ Followers</li>
+                        <li>5 Raid (100Members) 20/30min between each</li>
+                        <li>Random chats after each raids</li>
+                        <li>Channel Points messages</li>
+                    </ul>
+                    <a href="#" class="btn-secondary">Select Bundle</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <span class="footer-separator">•</span>
+                <a href="#">Terms of Service</a>
+                <span class="footer-separator">•</span>
+                <a href="#">Documentation</a>
+                <span class="footer-separator">•</span>
+                <a href="#">Contact Support</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ThaCat Systems. All realities reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="thacat-scripts.js"></script>
+</body>
+</html>
